@@ -1,0 +1,20 @@
+1*5s后 -------------------------
+31333 kube-apiserver --advertise- 328448 1110272 13:14
+26939 sh apiserver.sh api 50       3200 111232 17:17
+26945 grep apiserver               2624 110400 17:17
+2*5s后 -------------------------
+31333 kube-apiserver --advertise- 300736 1110272 13:14
+26939 sh apiserver.sh api 50       2880 111232 17:17
+32037 grep --color=auto apiserver  2688 110400 17:17
+32034 grep apiserver               2624 110400 17:17
+3*5s后 -------------------------
+31333 kube-apiserver --advertise- 283968 1110272 13:14
+32041 grep --color=auto apiserver  1536 110400 17:17
+32043 grep apiserver               1536 110400 17:17
+26939 sh apiserver.sh api 50        896 111232 17:17
+4*5s后 -------------------------
+31333 kube-apiserver --advertise- 283968 1110272 13:14
+26939 sh apiserver.sh api 50        896 111232 17:17
+32062 grep --color=auto apiserver   704 110400 17:20
+32056 grep apiserver                640 110400 17:18
+5*5s后 -------------------------

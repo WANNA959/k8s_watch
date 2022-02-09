@@ -1,0 +1,80 @@
+1*5s后 -------------------------
+10530 kube-apiserver --advertise- 325888 1110272 13:14
+11755 sh apiserver.sh api 30       3200 111232 17:01
+11760 grep apiserver               2624 110400 17:01
+2*5s后 -------------------------
+10530 kube-apiserver --advertise- 325440 1110272 13:14
+11755 sh apiserver.sh api 30       3200 111232 17:01
+11877 grep apiserver               2624 110400 17:01
+3*5s后 -------------------------
+10530 kube-apiserver --advertise- 325440 1110272 13:14
+11755 sh apiserver.sh api 30       3584 111232 17:01
+11923 grep apiserver               2624 110400 17:01
+4*5s后 -------------------------
+10530 kube-apiserver --advertise- 325440 1110272 13:14
+11755 sh apiserver.sh api 30       3584 111232 17:01
+12088 grep apiserver               2624 110400 17:01
+5*5s后 -------------------------
+10530 kube-apiserver --advertise- 333504 1110272 13:14
+11755 sh apiserver.sh api 30       3584 111232 17:01
+12117 grep apiserver               2624 110400 17:01
+6*5s后 -------------------------
+10530 kube-apiserver --advertise- 337472 1110272 13:14
+11755 sh apiserver.sh api 30       3584 111232 17:01
+12243 grep apiserver               2624 110400 17:01
+7*5s后 -------------------------
+10530 kube-apiserver --advertise- 337472 1110272 13:14
+11755 sh apiserver.sh api 30       3584 111232 17:01
+12268 grep apiserver               2624 110400 17:02
+8*5s后 -------------------------
+10530 kube-apiserver --advertise- 337472 1110272 13:14
+11755 sh apiserver.sh api 30       3584 111232 17:01
+12385 grep apiserver               2624 110400 17:02
+9*5s后 -------------------------
+10530 kube-apiserver --advertise- 325632 1110272 13:14
+11755 sh apiserver.sh api 30       3584 111232 17:01
+12410 grep apiserver               2688 110400 17:02
+10*5s后 -------------------------
+10530 kube-apiserver --advertise- 329280 1110272 13:14
+11755 sh apiserver.sh api 30       3584 111232 17:01
+12540 grep apiserver               2624 110400 17:02
+11*5s后 -------------------------
+10530 kube-apiserver --advertise- 329280 1110272 13:14
+11755 sh apiserver.sh api 30       3584 111232 17:01
+12576 grep apiserver               2624 110400 17:02
+12*5s后 -------------------------
+10530 kube-apiserver --advertise- 335040 1110272 13:14
+11755 sh apiserver.sh api 30       3584 111232 17:01
+12708 grep apiserver               2624 110400 17:02
+13*5s后 -------------------------
+10530 kube-apiserver --advertise- 342272 1110272 13:14
+11755 sh apiserver.sh api 30       3584 111232 17:01
+12747 grep apiserver               2688 110400 17:02
+14*5s后 -------------------------
+10530 kube-apiserver --advertise- 342272 1110272 13:14
+11755 sh apiserver.sh api 30       3584 111232 17:01
+12868 grep apiserver               2688 110400 17:02
+15*5s后 -------------------------
+10530 kube-apiserver --advertise- 342272 1110272 13:14
+11755 sh apiserver.sh api 30       3584 111232 17:01
+12893 grep apiserver               2624 110400 17:02
+16*5s后 -------------------------
+10530 kube-apiserver --advertise- 346176 1110272 13:14
+11755 sh apiserver.sh api 30       3584 111232 17:01
+13073 grep apiserver               2624 110400 17:02
+17*5s后 -------------------------
+10530 kube-apiserver --advertise- 346176 1110272 13:14
+11755 sh apiserver.sh api 30       3584 111232 17:01
+13159 grep apiserver               2688 110400 17:02
+18*5s后 -------------------------
+10530 kube-apiserver --advertise- 346176 1110272 13:14
+11755 sh apiserver.sh api 30       3584 111232 17:01
+13299 grep apiserver               2624 110400 17:02
+19*5s后 -------------------------
+10530 kube-apiserver --advertise- 346176 1110272 13:14
+11755 sh apiserver.sh api 30       3584 111232 17:01
+13334 grep apiserver               2688 110400 17:03
+20*5s后 -------------------------
+10530 kube-apiserver --advertise- 346176 1110272 13:14
+11755 sh apiserver.sh api 30       3584 111232 17:01
+13453 grep apiserver               2624 110400 17:03

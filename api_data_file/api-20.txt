@@ -1,0 +1,80 @@
+1*5s后 -------------------------
+10530 kube-apiserver --advertise- 355968 1251712 1月29
+ 8200 sh apiserver.sh api 20       3200 111232 12:26
+ 8205 grep apiserver               2624 110400 12:26
+2*5s后 -------------------------
+10530 kube-apiserver --advertise- 355968 1251712 1月29
+ 8200 sh apiserver.sh api 20       3200 111232 12:26
+ 8231 grep apiserver               2624 110400 12:26
+3*5s后 -------------------------
+10530 kube-apiserver --advertise- 355968 1251712 1月29
+ 8200 sh apiserver.sh api 20       3584 111232 12:26
+ 8344 grep apiserver               2688 110400 12:26
+4*5s后 -------------------------
+10530 kube-apiserver --advertise- 355968 1251712 1月29
+ 8200 sh apiserver.sh api 20       3584 111232 12:26
+ 8374 grep apiserver               2624 110400 12:26
+5*5s后 -------------------------
+10530 kube-apiserver --advertise- 351232 1251712 1月29
+ 8200 sh apiserver.sh api 20       3584 111232 12:26
+ 8483 grep apiserver               2624 110400 12:26
+6*5s后 -------------------------
+10530 kube-apiserver --advertise- 337344 1251712 1月29
+ 8200 sh apiserver.sh api 20       3584 111232 12:26
+ 8516 grep apiserver               2624 110400 12:26
+7*5s后 -------------------------
+10530 kube-apiserver --advertise- 352384 1251712 1月29
+ 8200 sh apiserver.sh api 20       3584 111232 12:26
+ 8625 grep apiserver               2688 110400 12:26
+8*5s后 -------------------------
+10530 kube-apiserver --advertise- 360576 1251712 1月29
+ 8200 sh apiserver.sh api 20       3584 111232 12:26
+ 8655 grep apiserver               2624 110400 12:26
+9*5s后 -------------------------
+10530 kube-apiserver --advertise- 360576 1251712 1月29
+ 8200 sh apiserver.sh api 20       3584 111232 12:26
+ 8766 sh apiserver.sh api 20        896 111232 12:26
+10*5s后 -------------------------
+10530 kube-apiserver --advertise- 360576 1251712 1月29
+ 8200 sh apiserver.sh api 20       3584 111232 12:26
+ 8796 grep apiserver               2624 110400 12:27
+11*5s后 -------------------------
+10530 kube-apiserver --advertise- 360576 1251712 1月29
+ 8200 sh apiserver.sh api 20       3584 111232 12:26
+ 8905 sh apiserver.sh api 20        896 111232 12:27
+12*5s后 -------------------------
+10530 kube-apiserver --advertise- 360576 1251712 1月29
+ 8200 sh apiserver.sh api 20       3584 111232 12:26
+ 8939 grep apiserver               2624 110400 12:27
+13*5s后 -------------------------
+10530 kube-apiserver --advertise- 360576 1251712 1月29
+ 8200 sh apiserver.sh api 20       3584 111232 12:26
+ 9049 grep apiserver               2624 110400 12:27
+14*5s后 -------------------------
+10530 kube-apiserver --advertise- 360576 1251712 1月29
+ 8200 sh apiserver.sh api 20       3584 111232 12:26
+ 9091 sh apiserver.sh api 20        896 111232 12:27
+15*5s后 -------------------------
+10530 kube-apiserver --advertise- 360576 1251712 1月29
+ 8200 sh apiserver.sh api 20       3584 111232 12:26
+ 9203 grep apiserver               2624 110400 12:27
+16*5s后 -------------------------
+10530 kube-apiserver --advertise- 360576 1251712 1月29
+ 8200 sh apiserver.sh api 20       3584 111232 12:26
+ 9236 grep apiserver               2624 110400 12:27
+17*5s后 -------------------------
+10530 kube-apiserver --advertise- 360576 1251712 1月29
+ 8200 sh apiserver.sh api 20       3584 111232 12:26
+ 9345 grep apiserver               2624 110400 12:27
+18*5s后 -------------------------
+10530 kube-apiserver --advertise- 360576 1251712 1月29
+ 8200 sh apiserver.sh api 20       3584 111232 12:26
+ 9379 grep apiserver               2624 110400 12:27
+19*5s后 -------------------------
+10530 kube-apiserver --advertise- 360320 1251712 1月29
+ 8200 sh apiserver.sh api 20       3584 111232 12:26
+ 9490 grep apiserver               2624 110400 12:27
+20*5s后 -------------------------
+10530 kube-apiserver --advertise- 360064 1251712 1月29
+ 8200 sh apiserver.sh api 20       3584 111232 12:26
+ 9520 grep apiserver               2624 110400 12:27

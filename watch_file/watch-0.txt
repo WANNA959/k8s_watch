@@ -1,0 +1,143 @@
+1*10s后 -------------------------
+10530 kube-apiserver --advertise- 364864 1249024 1月29
+10736 /usr/bin/kubelet --bootstra 111296 1536896 1月29
+10451 kube-controller-manager --a 95040 823232 1月29
+10540 kube-scheduler --authentica 43008 754496 1月29
+12604 /usr/bin/kube-controllers   38720 744384 1月29
+11166 /usr/local/bin/kube-proxy - 29184 748160 1月29
+20401 grep kube                    2624 110400 14:55
+2*10s后 -------------------------
+10530 kube-apiserver --advertise- 362624 1249024 1月29
+10736 /usr/bin/kubelet --bootstra 111808 1536896 1月29
+10451 kube-controller-manager --a 95040 823232 1月29
+10540 kube-scheduler --authentica 43008 754496 1月29
+12604 /usr/bin/kube-controllers   38720 744384 1月29
+11166 /usr/local/bin/kube-proxy - 29184 748160 1月29
+20537 grep kube                    2624 110400 14:55
+3*10s后 -------------------------
+10530 kube-apiserver --advertise- 362624 1249024 1月29
+10736 /usr/bin/kubelet --bootstra 111936 1536896 1月29
+10451 kube-controller-manager --a 95040 823232 1月29
+10540 kube-scheduler --authentica 43008 754496 1月29
+12604 /usr/bin/kube-controllers   38720 744384 1月29
+11166 /usr/local/bin/kube-proxy - 29184 748160 1月29
+20676 grep kube                    2624 110400 14:56
+4*10s后 -------------------------
+10530 kube-apiserver --advertise- 362624 1249024 1月29
+10736 /usr/bin/kubelet --bootstra 111936 1536896 1月29
+10451 kube-controller-manager --a 95040 823232 1月29
+10540 kube-scheduler --authentica 43008 754496 1月29
+12604 /usr/bin/kube-controllers   38720 744384 1月29
+11166 /usr/local/bin/kube-proxy - 29184 748160 1月29
+20818 grep kube                    2624 110400 14:56
+5*10s后 -------------------------
+10530 kube-apiserver --advertise- 362624 1249024 1月29
+10736 /usr/bin/kubelet --bootstra 111936 1536896 1月29
+10451 kube-controller-manager --a 95040 823232 1月29
+10540 kube-scheduler --authentica 43008 754496 1月29
+12604 /usr/bin/kube-controllers   38720 744384 1月29
+11166 /usr/local/bin/kube-proxy - 29184 748160 1月29
+20955 grep kube                    2688 110400 14:56
+6*10s后 -------------------------
+10530 kube-apiserver --advertise- 362624 1249024 1月29
+10736 /usr/bin/kubelet --bootstra 111936 1536896 1月29
+10451 kube-controller-manager --a 95040 823232 1月29
+10540 kube-scheduler --authentica 43008 754496 1月29
+12604 /usr/bin/kube-controllers   38720 744384 1月29
+11166 /usr/local/bin/kube-proxy - 29184 748160 1月29
+21092 grep kube                    2624 110400 14:56
+7*10s后 -------------------------
+10530 kube-apiserver --advertise- 362624 1249024 1月29
+10736 /usr/bin/kubelet --bootstra 111936 1536896 1月29
+10451 kube-controller-manager --a 95040 823232 1月29
+10540 kube-scheduler --authentica 43008 754496 1月29
+12604 /usr/bin/kube-controllers   38720 744384 1月29
+11166 /usr/local/bin/kube-proxy - 29184 748160 1月29
+21231 grep kube                    2624 110400 14:56
+8*10s后 -------------------------
+10530 kube-apiserver --advertise- 362624 1249024 1月29
+10736 /usr/bin/kubelet --bootstra 111936 1536896 1月29
+10451 kube-controller-manager --a 95040 823232 1月29
+10540 kube-scheduler --authentica 43008 754496 1月29
+12604 /usr/bin/kube-controllers   38720 744384 1月29
+11166 /usr/local/bin/kube-proxy - 29184 748160 1月29
+21371 grep kube                    2624 110400 14:56
+9*10s后 -------------------------
+10530 kube-apiserver --advertise- 362624 1249024 1月29
+10736 /usr/bin/kubelet --bootstra 111936 1536896 1月29
+10451 kube-controller-manager --a 95040 823232 1月29
+10540 kube-scheduler --authentica 43008 754496 1月29
+12604 /usr/bin/kube-controllers   38720 744384 1月29
+11166 /usr/local/bin/kube-proxy - 29184 748160 1月29
+21513 grep kube                    2624 110400 14:57
+10*10s后 -------------------------
+10530 kube-apiserver --advertise- 362624 1249024 1月29
+10736 /usr/bin/kubelet --bootstra 111936 1536896 1月29
+10451 kube-controller-manager --a 95040 823232 1月29
+10540 kube-scheduler --authentica 43008 754496 1月29
+12604 /usr/bin/kube-controllers   38720 744384 1月29
+11166 /usr/local/bin/kube-proxy - 29184 748160 1月29
+21657 grep kube                    2688 110400 14:57
+11*10s后 -------------------------
+10530 kube-apiserver --advertise- 362624 1249024 1月29
+10736 /usr/bin/kubelet --bootstra 111360 1536896 1月29
+10451 kube-controller-manager --a 95040 823232 1月29
+10540 kube-scheduler --authentica 43008 754496 1月29
+12604 /usr/bin/kube-controllers   38720 744384 1月29
+11166 /usr/local/bin/kube-proxy - 29184 748160 1月29
+21796 grep kube                    2624 110400 14:57
+12*10s后 -------------------------
+10530 kube-apiserver --advertise- 362624 1249024 1月29
+10736 /usr/bin/kubelet --bootstra 111552 1536896 1月29
+10451 kube-controller-manager --a 95040 823232 1月29
+10540 kube-scheduler --authentica 43008 754496 1月29
+12604 /usr/bin/kube-controllers   38720 744384 1月29
+11166 /usr/local/bin/kube-proxy - 29184 748160 1月29
+21936 grep kube                    2624 110400 14:57
+13*10s后 -------------------------
+10530 kube-apiserver --advertise- 362624 1249024 1月29
+10736 /usr/bin/kubelet --bootstra 111808 1536896 1月29
+10451 kube-controller-manager --a 95040 823232 1月29
+10540 kube-scheduler --authentica 43008 754496 1月29
+12604 /usr/bin/kube-controllers   38720 744384 1月29
+11166 /usr/local/bin/kube-proxy - 29184 748160 1月29
+22079 grep kube                    2624 110400 14:57
+14*10s后 -------------------------
+10530 kube-apiserver --advertise- 364608 1249024 1月29
+10736 /usr/bin/kubelet --bootstra 111808 1536896 1月29
+10451 kube-controller-manager --a 95040 823232 1月29
+10540 kube-scheduler --authentica 43008 754496 1月29
+12604 /usr/bin/kube-controllers   38720 744384 1月29
+11166 /usr/local/bin/kube-proxy - 29184 748160 1月29
+22214 grep kube                    2624 110400 14:57
+15*10s后 -------------------------
+10530 kube-apiserver --advertise- 364608 1249024 1月29
+10736 /usr/bin/kubelet --bootstra 111872 1536896 1月29
+10451 kube-controller-manager --a 95040 823232 1月29
+10540 kube-scheduler --authentica 43008 754496 1月29
+12604 /usr/bin/kube-controllers   38720 744384 1月29
+11166 /usr/local/bin/kube-proxy - 29184 748160 1月29
+22354 grep kube                    2624 110400 14:58
+16*10s后 -------------------------
+10530 kube-apiserver --advertise- 364608 1249024 1月29
+10736 /usr/bin/kubelet --bootstra 111872 1536896 1月29
+10451 kube-controller-manager --a 95040 823232 1月29
+10540 kube-scheduler --authentica 43008 754496 1月29
+12604 /usr/bin/kube-controllers   38720 744384 1月29
+11166 /usr/local/bin/kube-proxy - 29184 748160 1月29
+22489 grep kube                    2624 110400 14:58
+17*10s后 -------------------------
+10530 kube-apiserver --advertise- 364608 1249024 1月29
+10736 /usr/bin/kubelet --bootstra 111872 1536896 1月29
+10451 kube-controller-manager --a 95040 823232 1月29
+10540 kube-scheduler --authentica 43008 754496 1月29
+12604 /usr/bin/kube-controllers   38720 744384 1月29
+11166 /usr/local/bin/kube-proxy - 29184 748160 1月29
+22628 grep kube                    2624 110400 14:58
+18*10s后 -------------------------
+10530 kube-apiserver --advertise- 364608 1249024 1月29
+10736 /usr/bin/kubelet --bootstra 112064 1536896 1月29
+10451 kube-controller-manager --a 95040 823232 1月29
+10540 kube-scheduler --authentica 43008 754496 1月29
+12604 /usr/bin/kube-controllers   38720 744384 1月29
+11166 /usr/local/bin/kube-proxy - 29184 748160 1月29

@@ -1,0 +1,144 @@
+1*10s后 -------------------------
+10530 kube-apiserver --advertise- 369664 1246208 19:34
+10736 /usr/bin/kubelet --bootstra 108224 1535360 19:34
+10451 kube-controller-manager --a 102400 822720 19:34
+10540 kube-scheduler --authentica 47296 753984 19:34
+12604 /usr/bin/kube-controllers   32128 744384 19:35
+11166 /usr/local/bin/kube-proxy - 24896 748160 19:34
+18319 grep kube                    2624 110400 20:59
+2*10s后 -------------------------
+10530 kube-apiserver --advertise- 369664 1246208 19:34
+10736 /usr/bin/kubelet --bootstra 108224 1535360 19:34
+10451 kube-controller-manager --a 102400 822720 19:34
+10540 kube-scheduler --authentica 47296 753984 19:34
+12604 /usr/bin/kube-controllers   32128 744384 19:35
+11166 /usr/local/bin/kube-proxy - 24896 748160 19:34
+18466 grep kube                    2624 110400 21:00
+3*10s后 -------------------------
+10530 kube-apiserver --advertise- 369664 1246208 19:34
+10736 /usr/bin/kubelet --bootstra 108288 1535360 19:34
+10451 kube-controller-manager --a 102400 822720 19:34
+10540 kube-scheduler --authentica 47296 753984 19:34
+12604 /usr/bin/kube-controllers   32128 744384 19:35
+11166 /usr/local/bin/kube-proxy - 24896 748160 19:34
+18605 grep kube                    2688 110400 21:00
+4*10s后 -------------------------
+10530 kube-apiserver --advertise- 369664 1246208 19:34
+10736 /usr/bin/kubelet --bootstra 108288 1535360 19:34
+10451 kube-controller-manager --a 102400 822720 19:34
+10540 kube-scheduler --authentica 47296 753984 19:34
+12604 /usr/bin/kube-controllers   32128 744384 19:35
+11166 /usr/local/bin/kube-proxy - 24896 748160 19:34
+18744 grep kube                    2624 110400 21:00
+5*10s后 -------------------------
+10530 kube-apiserver --advertise- 368896 1246208 19:34
+10736 /usr/bin/kubelet --bootstra 108416 1535360 19:34
+10451 kube-controller-manager --a 100416 822720 19:34
+10540 kube-scheduler --authentica 44032 753984 19:34
+12604 /usr/bin/kube-controllers   28096 744384 19:35
+11166 /usr/local/bin/kube-proxy - 22592 748160 19:34
+18881 grep kube                    2688 110400 21:00
+6*10s后 -------------------------
+10530 kube-apiserver --advertise- 368896 1246208 19:34
+10736 /usr/bin/kubelet --bootstra 108608 1535360 19:34
+10451 kube-controller-manager --a 100416 822720 19:34
+10540 kube-scheduler --authentica 44032 753984 19:34
+12604 /usr/bin/kube-controllers   28096 744384 19:35
+11166 /usr/local/bin/kube-proxy - 22592 748160 19:34
+19019 grep kube                    2624 110400 21:00
+7*10s后 -------------------------
+10530 kube-apiserver --advertise- 368896 1246208 19:34
+10736 /usr/bin/kubelet --bootstra 108736 1535360 19:34
+10451 kube-controller-manager --a 100416 822720 19:34
+10540 kube-scheduler --authentica 44032 753984 19:34
+12604 /usr/bin/kube-controllers   28096 744384 19:35
+11166 /usr/local/bin/kube-proxy - 22592 748160 19:34
+19158 grep kube                    2624 110400 21:00
+8*10s后 -------------------------
+10530 kube-apiserver --advertise- 368896 1246208 19:34
+10736 /usr/bin/kubelet --bootstra 108736 1535360 19:34
+10451 kube-controller-manager --a 100416 822720 19:34
+10540 kube-scheduler --authentica 44032 753984 19:34
+12604 /usr/bin/kube-controllers   28096 744384 19:35
+11166 /usr/local/bin/kube-proxy - 22592 748160 19:34
+19308 grep kube                    2688 110400 21:01
+9*10s后 -------------------------
+10530 kube-apiserver --advertise- 368896 1246208 19:34
+10736 /usr/bin/kubelet --bootstra 109184 1535360 19:34
+10451 kube-controller-manager --a 100416 822720 19:34
+10540 kube-scheduler --authentica 44032 753984 19:34
+12604 /usr/bin/kube-controllers   28096 744384 19:35
+11166 /usr/local/bin/kube-proxy - 22592 748160 19:34
+19446 grep kube                    2624 110400 21:01
+10*10s后 -------------------------
+10530 kube-apiserver --advertise- 368896 1246208 19:34
+10736 /usr/bin/kubelet --bootstra 109184 1535360 19:34
+10451 kube-controller-manager --a 100416 822720 19:34
+10540 kube-scheduler --authentica 44032 753984 19:34
+12604 /usr/bin/kube-controllers   28096 744384 19:35
+11166 /usr/local/bin/kube-proxy - 22592 748160 19:34
+19609 grep kube                    2624 110400 21:01
+11*10s后 -------------------------
+10530 kube-apiserver --advertise- 368896 1246208 19:34
+10736 /usr/bin/kubelet --bootstra 108224 1535360 19:34
+10451 kube-controller-manager --a 100416 822720 19:34
+10540 kube-scheduler --authentica 44032 753984 19:34
+12604 /usr/bin/kube-controllers   31680 744384 19:35
+11166 /usr/local/bin/kube-proxy - 22592 748160 19:34
+19755 grep kube                    2624 110400 21:01
+12*10s后 -------------------------
+10530 kube-apiserver --advertise- 368896 1246208 19:34
+10736 /usr/bin/kubelet --bootstra 108288 1535360 19:34
+10451 kube-controller-manager --a 100416 822720 19:34
+10540 kube-scheduler --authentica 44032 753984 19:34
+12604 /usr/bin/kube-controllers   31680 744384 19:35
+11166 /usr/local/bin/kube-proxy - 22592 748160 19:34
+19900 grep kube                    2624 110400 21:01
+13*10s后 -------------------------
+10530 kube-apiserver --advertise- 368896 1246208 19:34
+10736 /usr/bin/kubelet --bootstra 108352 1535360 19:34
+10451 kube-controller-manager --a 100416 822720 19:34
+10540 kube-scheduler --authentica 44032 753984 19:34
+12604 /usr/bin/kube-controllers   31680 744384 19:35
+11166 /usr/local/bin/kube-proxy - 22592 748160 19:34
+20036 grep kube                    2624 110400 21:01
+14*10s后 -------------------------
+10530 kube-apiserver --advertise- 368896 1246208 19:34
+10736 /usr/bin/kubelet --bootstra 108352 1535360 19:34
+10451 kube-controller-manager --a 100416 822720 19:34
+10540 kube-scheduler --authentica 44032 753984 19:34
+12604 /usr/bin/kube-controllers   31680 744384 19:35
+11166 /usr/local/bin/kube-proxy - 22592 748160 19:34
+20174 grep kube                    2624 110400 21:02
+15*10s后 -------------------------
+10530 kube-apiserver --advertise- 368896 1246208 19:34
+10736 /usr/bin/kubelet --bootstra 108352 1535360 19:34
+10451 kube-controller-manager --a 100416 822720 19:34
+10540 kube-scheduler --authentica 44032 753984 19:34
+12604 /usr/bin/kube-controllers   31680 744384 19:35
+11166 /usr/local/bin/kube-proxy - 22592 748160 19:34
+20309 grep kube                    2688 110400 21:02
+16*10s后 -------------------------
+10530 kube-apiserver --advertise- 367488 1246208 19:34
+10736 /usr/bin/kubelet --bootstra 108352 1535360 19:34
+10451 kube-controller-manager --a 100416 822720 19:34
+10540 kube-scheduler --authentica 45952 753984 19:34
+12604 /usr/bin/kube-controllers   31680 744384 19:35
+11166 /usr/local/bin/kube-proxy - 22592 748160 19:34
+20446 grep kube                    2624 110400 21:02
+17*10s后 -------------------------
+10530 kube-apiserver --advertise- 367488 1246208 19:34
+10736 /usr/bin/kubelet --bootstra 108736 1535360 19:34
+10451 kube-controller-manager --a 100416 822720 19:34
+10540 kube-scheduler --authentica 45952 753984 19:34
+12604 /usr/bin/kube-controllers   31680 744384 19:35
+11166 /usr/local/bin/kube-proxy - 22592 748160 19:34
+20586 grep kube                    2624 110400 21:02
+18*10s后 -------------------------
+10530 kube-apiserver --advertise- 367488 1246208 19:34
+10736 /usr/bin/kubelet --bootstra 108672 1535360 19:34
+10451 kube-controller-manager --a 100416 822720 19:34
+10540 kube-scheduler --authentica 45952 753984 19:34
+12604 /usr/bin/kube-controllers   31680 744384 19:35
+11166 /usr/local/bin/kube-proxy - 22592 748160 19:34
+20725 grep kube                    2624 110400 21:02
