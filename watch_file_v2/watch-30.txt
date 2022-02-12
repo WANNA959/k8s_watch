@@ -1,0 +1,216 @@
+1*10s后 -------------------------
+ 9534 java -jar kube-runtime-mirr 8087392 13870476 Jan19
+ 2635 kube-apiserver --advertise- 371056 1180564 Jan19
+ 9524 java -jar kube-api-mapper.j 350208 11671696 Jan19
+ 1410 /usr/bin/kubelet --bootstra 142300 2217128 Jan19
+ 2628 kube-controller-manager --a 122140 824508 Jan19
+ 5158 /usr/bin/kube-controllers   69224 748844 Jan19
+ 2620 kube-scheduler --authentica 57140 755556 Jan19
+ 3329 /usr/local/bin/kube-proxy - 43236 748984 Jan19
+ 9664 postgres: postgres kube 172 22760 196384 Jan19
+ 1639 postgres: postgres kube 172 13936 194416 Jan20
+ 3849 grep kube                    2240 112820 15:37
+2*10s后 -------------------------
+ 9534 java -jar kube-runtime-mirr 8087392 13870476 Jan19
+ 2635 kube-apiserver --advertise- 373148 1180564 Jan19
+ 9524 java -jar kube-api-mapper.j 350208 11671696 Jan19
+ 1410 /usr/bin/kubelet --bootstra 142824 2217128 Jan19
+ 2628 kube-controller-manager --a 123184 824508 Jan19
+ 5158 /usr/bin/kube-controllers   69744 748844 Jan19
+ 2620 kube-scheduler --authentica 57400 755556 Jan19
+ 3329 /usr/local/bin/kube-proxy - 43916 748984 Jan19
+ 9664 postgres: postgres kube 172 22760 196384 Jan19
+ 1639 postgres: postgres kube 172 13936 194416 Jan20
+ 6422 grep kube                    2232 112820 15:37
+3*10s后 -------------------------
+ 9534 java -jar kube-runtime-mirr 8087392 13870476 Jan19
+ 2635 kube-apiserver --advertise- 373148 1180564 Jan19
+ 9524 java -jar kube-api-mapper.j 350208 11671696 Jan19
+ 1410 /usr/bin/kubelet --bootstra 143288 2217128 Jan19
+ 2628 kube-controller-manager --a 123708 824508 Jan19
+ 5158 /usr/bin/kube-controllers   69744 748844 Jan19
+ 2620 kube-scheduler --authentica 57400 755556 Jan19
+ 3329 /usr/local/bin/kube-proxy - 43916 748984 Jan19
+ 9664 postgres: postgres kube 172 22760 196384 Jan19
+ 1639 postgres: postgres kube 172 13936 194416 Jan20
+ 6671 grep kube                    2252 112820 15:37
+4*10s后 -------------------------
+ 9534 java -jar kube-runtime-mirr 8087392 13870476 Jan19
+ 2635 kube-apiserver --advertise- 373148 1180564 Jan19
+ 9524 java -jar kube-api-mapper.j 350208 11671696 Jan19
+ 1410 /usr/bin/kubelet --bootstra 143288 2217128 Jan19
+ 2628 kube-controller-manager --a 123708 824508 Jan19
+ 5158 /usr/bin/kube-controllers   69744 748844 Jan19
+ 2620 kube-scheduler --authentica 57400 755556 Jan19
+ 3329 /usr/local/bin/kube-proxy - 43916 748984 Jan19
+ 9664 postgres: postgres kube 172 22760 196384 Jan19
+ 1639 postgres: postgres kube 172 13936 194416 Jan20
+ 6944 grep kube                    2236 112820 15:37
+5*10s后 -------------------------
+ 9534 java -jar kube-runtime-mirr 8087392 13870476 Jan19
+ 2635 kube-apiserver --advertise- 374196 1180564 Jan19
+ 9524 java -jar kube-api-mapper.j 350208 11671696 Jan19
+ 1410 /usr/bin/kubelet --bootstra 143288 2217128 Jan19
+ 2628 kube-controller-manager --a 125284 824764 Jan19
+ 5158 /usr/bin/kube-controllers   69744 748844 Jan19
+ 2620 kube-scheduler --authentica 57400 755556 Jan19
+ 3329 /usr/local/bin/kube-proxy - 43916 748984 Jan19
+ 9664 postgres: postgres kube 172 22760 196384 Jan19
+ 1639 postgres: postgres kube 172 13936 194416 Jan20
+ 7173 grep kube                    2236 112820 15:37
+6*10s后 -------------------------
+ 9534 java -jar kube-runtime-mirr 8087392 13870476 Jan19
+ 2635 kube-apiserver --advertise- 375516 1180564 Jan19
+ 9524 java -jar kube-api-mapper.j 350208 11671696 Jan19
+ 1410 /usr/bin/kubelet --bootstra 143668 2217128 Jan19
+ 2628 kube-controller-manager --a 125284 824764 Jan19
+ 5158 /usr/bin/kube-controllers   69744 748844 Jan19
+ 2620 kube-scheduler --authentica 57400 755556 Jan19
+ 3329 /usr/local/bin/kube-proxy - 43916 748984 Jan19
+ 9664 postgres: postgres kube 172 22760 196384 Jan19
+ 1639 postgres: postgres kube 172 13936 194416 Jan20
+ 7394 grep kube                    2228 112820 15:37
+7*10s后 -------------------------
+ 9534 java -jar kube-runtime-mirr 8087392 13870476 Jan19
+ 2635 kube-apiserver --advertise- 378420 1180564 Jan19
+ 9524 java -jar kube-api-mapper.j 350208 11671696 Jan19
+ 1410 /usr/bin/kubelet --bootstra 143680 2217128 Jan19
+ 2628 kube-controller-manager --a 125284 824764 Jan19
+ 5158 /usr/bin/kube-controllers   69744 748844 Jan19
+ 2620 kube-scheduler --authentica 57400 755556 Jan19
+ 3329 /usr/local/bin/kube-proxy - 43916 748984 Jan19
+ 9664 postgres: postgres kube 172 22760 196384 Jan19
+ 1639 postgres: postgres kube 172 13936 194416 Jan20
+ 7617 grep kube                    2228 112820 15:38
+8*10s后 -------------------------
+ 9534 java -jar kube-runtime-mirr 8087392 13870476 Jan19
+ 2635 kube-apiserver --advertise- 382116 1180564 Jan19
+ 9524 java -jar kube-api-mapper.j 350208 11671696 Jan19
+ 1410 /usr/bin/kubelet --bootstra 144168 2217128 Jan19
+ 2628 kube-controller-manager --a 125548 824764 Jan19
+ 5158 /usr/bin/kube-controllers   69744 748844 Jan19
+ 2620 kube-scheduler --authentica 57400 755556 Jan19
+ 3329 /usr/local/bin/kube-proxy - 43916 748984 Jan19
+ 9664 postgres: postgres kube 172 22760 196384 Jan19
+ 1639 postgres: postgres kube 172 13936 194416 Jan20
+ 7813 grep kube                    2280 112820 15:38
+9*10s后 -------------------------
+ 9534 java -jar kube-runtime-mirr 8087392 13870476 Jan19
+ 2635 kube-apiserver --advertise- 384492 1180564 Jan19
+ 9524 java -jar kube-api-mapper.j 350208 11671696 Jan19
+ 1410 /usr/bin/kubelet --bootstra 144248 2217128 Jan19
+ 2628 kube-controller-manager --a 125812 824764 Jan19
+ 5158 /usr/bin/kube-controllers   69744 748844 Jan19
+ 2620 kube-scheduler --authentica 57400 755556 Jan19
+ 3329 /usr/local/bin/kube-proxy - 43916 748984 Jan19
+ 9664 postgres: postgres kube 172 22760 196384 Jan19
+ 1639 postgres: postgres kube 172 13936 194416 Jan20
+ 8007 grep kube                    2240 112820 15:38
+10*10s后 -------------------------
+ 9534 java -jar kube-runtime-mirr 8087392 13870476 Jan19
+ 2635 kube-apiserver --advertise- 387660 1180564 Jan19
+ 9524 java -jar kube-api-mapper.j 350208 11671696 Jan19
+ 1410 /usr/bin/kubelet --bootstra 144280 2217128 Jan19
+ 2628 kube-controller-manager --a 125812 824764 Jan19
+ 5158 /usr/bin/kube-controllers   69744 748844 Jan19
+ 2620 kube-scheduler --authentica 57400 755556 Jan19
+ 3329 /usr/local/bin/kube-proxy - 43916 748984 Jan19
+ 9664 postgres: postgres kube 172 22760 196384 Jan19
+ 1639 postgres: postgres kube 172 13936 194416 Jan20
+ 8229 grep kube                    2280 112820 15:38
+11*10s后 -------------------------
+ 9534 java -jar kube-runtime-mirr 8087392 13870476 Jan19
+ 2635 kube-apiserver --advertise- 393468 1180564 Jan19
+ 9524 java -jar kube-api-mapper.j 350208 11671696 Jan19
+ 1410 /usr/bin/kubelet --bootstra 144380 2217128 Jan19
+ 2628 kube-controller-manager --a 126396 824764 Jan19
+ 5158 /usr/bin/kube-controllers   69744 748844 Jan19
+ 2620 kube-scheduler --authentica 57400 755556 Jan19
+ 3329 /usr/local/bin/kube-proxy - 43916 748984 Jan19
+ 9664 postgres: postgres kube 172 22760 196384 Jan19
+ 1639 postgres: postgres kube 172 13936 194416 Jan20
+ 8430 grep kube                    2256 112820 15:38
+12*10s后 -------------------------
+ 9534 java -jar kube-runtime-mirr 8087392 13870476 Jan19
+ 2635 kube-apiserver --advertise- 396900 1180564 Jan19
+ 9524 java -jar kube-api-mapper.j 350208 11671696 Jan19
+ 1410 /usr/bin/kubelet --bootstra 144400 2217128 Jan19
+ 2628 kube-controller-manager --a 126660 824764 Jan19
+ 5158 /usr/bin/kube-controllers   69744 748844 Jan19
+ 2620 kube-scheduler --authentica 57660 755556 Jan19
+ 3329 /usr/local/bin/kube-proxy - 43916 748984 Jan19
+ 9664 postgres: postgres kube 172 22760 196384 Jan19
+ 1639 postgres: postgres kube 172 13936 194416 Jan20
+ 8645 grep kube                    2256 112820 15:38
+13*10s后 -------------------------
+ 9534 java -jar kube-runtime-mirr 8087392 13870476 Jan19
+ 2635 kube-apiserver --advertise- 405084 1180564 Jan19
+ 9524 java -jar kube-api-mapper.j 350208 11671696 Jan19
+ 1410 /usr/bin/kubelet --bootstra 145156 2217128 Jan19
+ 2628 kube-controller-manager --a 126660 824764 Jan19
+ 5158 /usr/bin/kube-controllers   69744 748844 Jan19
+ 2620 kube-scheduler --authentica 57920 755556 Jan19
+ 3329 /usr/local/bin/kube-proxy - 43916 748984 Jan19
+ 9664 postgres: postgres kube 172 22760 196384 Jan19
+ 1639 postgres: postgres kube 172 13936 194416 Jan20
+ 8939 grep kube                    2268 112820 15:39
+14*10s后 -------------------------
+ 9534 java -jar kube-runtime-mirr 8087392 13870476 Jan19
+ 2635 kube-apiserver --advertise- 405348 1180564 Jan19
+ 9524 java -jar kube-api-mapper.j 350208 11671696 Jan19
+ 1410 /usr/bin/kubelet --bootstra 145160 2217128 Jan19
+ 2628 kube-controller-manager --a 126660 824764 Jan19
+ 5158 /usr/bin/kube-controllers   69744 748844 Jan19
+ 2620 kube-scheduler --authentica 57736 755556 Jan19
+ 3329 /usr/local/bin/kube-proxy - 43916 748984 Jan19
+ 9664 postgres: postgres kube 172 22760 196384 Jan19
+ 1639 postgres: postgres kube 172 13936 194416 Jan20
+ 9207 grep kube                    2268 112820 15:39
+15*10s后 -------------------------
+ 9534 java -jar kube-runtime-mirr 8087392 13870476 Jan19
+ 2635 kube-apiserver --advertise- 405612 1180564 Jan19
+ 9524 java -jar kube-api-mapper.j 350208 11671696 Jan19
+ 1410 /usr/bin/kubelet --bootstra 145160 2217128 Jan19
+ 2628 kube-controller-manager --a 126660 824764 Jan19
+ 5158 /usr/bin/kube-controllers   69744 748844 Jan19
+ 2620 kube-scheduler --authentica 57736 755556 Jan19
+ 3329 /usr/local/bin/kube-proxy - 43428 748984 Jan19
+ 9664 postgres: postgres kube 172 22760 196384 Jan19
+ 1639 postgres: postgres kube 172 13936 194416 Jan20
+ 9512 grep kube                    2288 112820 15:39
+16*10s后 -------------------------
+ 9534 java -jar kube-runtime-mirr 8087392 13870476 Jan19
+ 2635 kube-apiserver --advertise- 405612 1180564 Jan19
+ 9524 java -jar kube-api-mapper.j 350208 11671696 Jan19
+ 1410 /usr/bin/kubelet --bootstra 145668 2217128 Jan19
+ 2628 kube-controller-manager --a 126660 824764 Jan19
+ 5158 /usr/bin/kube-controllers   69744 748844 Jan19
+ 2620 kube-scheduler --authentica 57736 755556 Jan19
+ 3329 /usr/local/bin/kube-proxy - 43428 748984 Jan19
+ 9664 postgres: postgres kube 172 22760 196384 Jan19
+ 1639 postgres: postgres kube 172 13936 194416 Jan20
+ 9806 grep kube                    2268 112820 15:39
+17*10s后 -------------------------
+ 9534 java -jar kube-runtime-mirr 8087392 13870476 Jan19
+ 2635 kube-apiserver --advertise- 405612 1180564 Jan19
+ 9524 java -jar kube-api-mapper.j 350208 11671696 Jan19
+ 1410 /usr/bin/kubelet --bootstra 145888 2217128 Jan19
+ 2628 kube-controller-manager --a 123716 824764 Jan19
+ 5158 /usr/bin/kube-controllers   69744 748844 Jan19
+ 2620 kube-scheduler --authentica 57736 755556 Jan19
+ 3329 /usr/local/bin/kube-proxy - 43428 748984 Jan19
+ 9664 postgres: postgres kube 172 22760 196384 Jan19
+ 1639 postgres: postgres kube 172 13936 194416 Jan20
+10124 grep kube                    2252 112820 15:39
+18*10s后 -------------------------
+ 9534 java -jar kube-runtime-mirr 8087392 13870476 Jan19
+ 2635 kube-apiserver --advertise- 405876 1180564 Jan19
+ 9524 java -jar kube-api-mapper.j 350208 11671696 Jan19
+ 1410 /usr/bin/kubelet --bootstra 145988 2217128 Jan19
+ 2628 kube-controller-manager --a 123716 824764 Jan19
+ 5158 /usr/bin/kube-controllers   69744 748844 Jan19
+ 2620 kube-scheduler --authentica 57736 755556 Jan19
+ 3329 /usr/local/bin/kube-proxy - 43428 748984 Jan19
+ 9664 postgres: postgres kube 172 22760 196384 Jan19
+ 1639 postgres: postgres kube 172 13936 194416 Jan20
+10340 grep kube                    2268 112820 15:39

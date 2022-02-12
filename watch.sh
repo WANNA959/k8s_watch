@@ -13,7 +13,7 @@ fi
 
 pidFile=${name}-${count}.txt
 
-echo /dev/null > pidFile
+echo /dev/null > $pidFile
 
 echo "pidFile: "$pidFile
 for i in $(seq 1 18)

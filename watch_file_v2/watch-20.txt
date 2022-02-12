@@ -1,0 +1,216 @@
+1*10s后 -------------------------
+ 9534 java -jar kube-runtime-mirr 8087136 13870476 1月19
+ 2635 kube-apiserver --advertise- 367328 1179688 1月19
+ 9524 java -jar kube-api-mapper.j 350208 11671696 1月19
+ 1410 /usr/bin/kubelet --bootstra 134988 2217128 1月19
+ 2628 kube-controller-manager --a 121048 824508 1月19
+ 5158 /usr/bin/kube-controllers   68884 748844 1月19
+ 2620 kube-scheduler --authentica 57164 755556 1月19
+ 3329 /usr/local/bin/kube-proxy - 42724 748984 1月19
+ 9664 postgres: postgres kube 172 22716 196340 1月19
+ 1639 postgres: postgres kube 172 13936 194416 1月20
+32730 grep kube                    2372 112836 15:10
+2*10s后 -------------------------
+ 9534 java -jar kube-runtime-mirr 8087136 13870476 1月19
+ 2635 kube-apiserver --advertise- 406392 1180564 1月19
+ 9524 java -jar kube-api-mapper.j 350208 11671696 1月19
+ 1410 /usr/bin/kubelet --bootstra 136972 2217128 1月19
+ 2628 kube-controller-manager --a 121308 824508 1月19
+ 5158 /usr/bin/kube-controllers   69144 748844 1月19
+ 2620 kube-scheduler --authentica 57164 755556 1月19
+ 3329 /usr/local/bin/kube-proxy - 44264 748984 1月19
+ 9664 postgres: postgres kube 172 22716 196340 1月19
+ 1639 postgres: postgres kube 172 13936 194416 1月20
+ 2851 grep kube                    2324 112836 15:11
+3*10s后 -------------------------
+ 9534 java -jar kube-runtime-mirr 8087136 13870476 1月19
+ 2635 kube-apiserver --advertise- 406392 1180564 1月19
+ 9524 java -jar kube-api-mapper.j 350208 11671696 1月19
+ 1410 /usr/bin/kubelet --bootstra 137028 2217128 1月19
+ 2628 kube-controller-manager --a 121308 824508 1月19
+ 5158 /usr/bin/kube-controllers   69144 748844 1月19
+ 2620 kube-scheduler --authentica 57164 755556 1月19
+ 3329 /usr/local/bin/kube-proxy - 44264 748984 1月19
+ 9664 postgres: postgres kube 172 22716 196340 1月19
+ 1639 postgres: postgres kube 172 13936 194416 1月20
+ 3093 grep kube                    2300 112836 15:11
+4*10s后 -------------------------
+ 9534 java -jar kube-runtime-mirr 8087136 13870476 1月19
+ 2635 kube-apiserver --advertise- 406392 1180564 1月19
+ 9524 java -jar kube-api-mapper.j 350208 11671696 1月19
+ 1410 /usr/bin/kubelet --bootstra 137028 2217128 1月19
+ 2628 kube-controller-manager --a 121308 824508 1月19
+ 5158 /usr/bin/kube-controllers   69144 748844 1月19
+ 2620 kube-scheduler --authentica 57164 755556 1月19
+ 3329 /usr/local/bin/kube-proxy - 44264 748984 1月19
+ 9664 postgres: postgres kube 172 22716 196340 1月19
+ 1639 postgres: postgres kube 172 13936 194416 1月20
+ 3319 grep kube                    2196 112836 15:11
+5*10s后 -------------------------
+ 9534 java -jar kube-runtime-mirr 8087136 13870476 1月19
+ 2635 kube-apiserver --advertise- 406652 1180564 1月19
+ 9524 java -jar kube-api-mapper.j 350208 11671696 1月19
+ 1410 /usr/bin/kubelet --bootstra 137188 2217128 1月19
+ 2628 kube-controller-manager --a 122616 824508 1月19
+ 5158 /usr/bin/kube-controllers   69144 748844 1月19
+ 2620 kube-scheduler --authentica 57164 755556 1月19
+ 3329 /usr/local/bin/kube-proxy - 44264 748984 1月19
+ 9664 postgres: postgres kube 172 22716 196340 1月19
+ 1639 postgres: postgres kube 172 13936 194416 1月20
+ 3581 grep kube                    2248 112836 15:11
+6*10s后 -------------------------
+ 9534 java -jar kube-runtime-mirr 8087136 13870476 1月19
+ 2635 kube-apiserver --advertise- 406652 1180564 1月19
+ 9524 java -jar kube-api-mapper.j 350208 11671696 1月19
+ 1410 /usr/bin/kubelet --bootstra 137188 2217128 1月19
+ 2628 kube-controller-manager --a 122616 824508 1月19
+ 5158 /usr/bin/kube-controllers   69144 748844 1月19
+ 2620 kube-scheduler --authentica 57164 755556 1月19
+ 3329 /usr/local/bin/kube-proxy - 44264 748984 1月19
+ 9664 postgres: postgres kube 172 22716 196340 1月19
+ 1639 postgres: postgres kube 172 13936 194416 1月20
+ 3800 grep kube                    2276 112836 15:11
+7*10s后 -------------------------
+ 9534 java -jar kube-runtime-mirr 8087136 13870476 1月19
+ 2635 kube-apiserver --advertise- 407180 1180564 1月19
+ 9524 java -jar kube-api-mapper.j 350208 11671696 1月19
+ 1410 /usr/bin/kubelet --bootstra 137624 2217128 1月19
+ 2628 kube-controller-manager --a 123132 824508 1月19
+ 5158 /usr/bin/kube-controllers   69408 748844 1月19
+ 2620 kube-scheduler --authentica 57164 755556 1月19
+ 3329 /usr/local/bin/kube-proxy - 44264 748984 1月19
+ 9664 postgres: postgres kube 172 22716 196340 1月19
+ 1639 postgres: postgres kube 172 13936 194416 1月20
+ 4031 grep kube                    2296 112836 15:11
+8*10s后 -------------------------
+ 9534 java -jar kube-runtime-mirr 8087136 13870476 1月19
+ 2635 kube-apiserver --advertise- 407180 1180564 1月19
+ 9524 java -jar kube-api-mapper.j 350208 11671696 1月19
+ 1410 /usr/bin/kubelet --bootstra 138452 2217128 1月19
+ 2628 kube-controller-manager --a 124432 824508 1月19
+ 5158 /usr/bin/kube-controllers   69668 748844 1月19
+ 2620 kube-scheduler --authentica 57164 755556 1月19
+ 3329 /usr/local/bin/kube-proxy - 44264 748984 1月19
+ 9664 postgres: postgres kube 172 22716 196340 1月19
+ 1639 postgres: postgres kube 172 13936 194416 1月20
+ 4265 grep kube                    2372 112836 15:12
+9*10s后 -------------------------
+ 9534 java -jar kube-runtime-mirr 8087136 13870476 1月19
+ 2635 kube-apiserver --advertise- 407180 1180564 1月19
+ 9524 java -jar kube-api-mapper.j 350208 11671696 1月19
+ 1410 /usr/bin/kubelet --bootstra 139352 2217128 1月19
+ 2628 kube-controller-manager --a 124432 824508 1月19
+ 5158 /usr/bin/kube-controllers   69668 748844 1月19
+ 2620 kube-scheduler --authentica 57164 755556 1月19
+ 3329 /usr/local/bin/kube-proxy - 44264 748984 1月19
+ 9664 postgres: postgres kube 172 22716 196340 1月19
+ 1639 postgres: postgres kube 172 13936 194416 1月20
+ 4494 grep kube                    2256 112836 15:12
+10*10s后 -------------------------
+ 9534 java -jar kube-runtime-mirr 8087136 13870476 1月19
+ 2635 kube-apiserver --advertise- 407444 1180564 1月19
+ 9524 java -jar kube-api-mapper.j 350208 11671696 1月19
+ 1410 /usr/bin/kubelet --bootstra 139392 2217128 1月19
+ 2628 kube-controller-manager --a 124432 824508 1月19
+ 5158 /usr/bin/kube-controllers   69668 748844 1月19
+ 2620 kube-scheduler --authentica 57164 755556 1月19
+ 3329 /usr/local/bin/kube-proxy - 44264 748984 1月19
+ 9664 postgres: postgres kube 172 22716 196340 1月19
+ 1639 postgres: postgres kube 172 13936 194416 1月20
+ 4714 grep kube                    2256 112836 15:12
+11*10s后 -------------------------
+ 9534 java -jar kube-runtime-mirr 8087136 13870476 1月19
+ 2635 kube-apiserver --advertise- 407444 1180564 1月19
+ 9524 java -jar kube-api-mapper.j 350208 11671696 1月19
+ 1410 /usr/bin/kubelet --bootstra 139392 2217128 1月19
+ 2628 kube-controller-manager --a 125216 824508 1月19
+ 5158 /usr/bin/kube-controllers   69668 748844 1月19
+ 2620 kube-scheduler --authentica 57164 755556 1月19
+ 3329 /usr/local/bin/kube-proxy - 44264 748984 1月19
+ 9664 postgres: postgres kube 172 22716 196340 1月19
+ 1639 postgres: postgres kube 172 13936 194416 1月20
+ 4941 grep kube                    2372 112836 15:12
+12*10s后 -------------------------
+ 9534 java -jar kube-runtime-mirr 8087136 13870476 1月19
+ 2635 kube-apiserver --advertise- 407444 1180564 1月19
+ 9524 java -jar kube-api-mapper.j 350208 11671696 1月19
+ 1410 /usr/bin/kubelet --bootstra 139424 2217128 1月19
+ 2628 kube-controller-manager --a 125216 824508 1月19
+ 5158 /usr/bin/kube-controllers   69668 748844 1月19
+ 2620 kube-scheduler --authentica 57424 755556 1月19
+ 3329 /usr/local/bin/kube-proxy - 44264 748984 1月19
+ 9664 postgres: postgres kube 172 22716 196340 1月19
+ 1639 postgres: postgres kube 172 13936 194416 1月20
+ 5171 grep kube                    2336 112836 15:12
+13*10s后 -------------------------
+ 9534 java -jar kube-runtime-mirr 8087136 13870476 1月19
+ 2635 kube-apiserver --advertise- 407444 1180564 1月19
+ 9524 java -jar kube-api-mapper.j 350208 11671696 1月19
+ 1410 /usr/bin/kubelet --bootstra 138512 2217128 1月19
+ 2628 kube-controller-manager --a 125476 824508 1月19
+ 5158 /usr/bin/kube-controllers   69668 748844 1月19
+ 2620 kube-scheduler --authentica 57424 755556 1月19
+ 3329 /usr/local/bin/kube-proxy - 44264 748984 1月19
+ 9664 postgres: postgres kube 172 22716 196340 1月19
+ 1639 postgres: postgres kube 172 13936 194416 1月20
+ 5388 grep kube                    2248 112836 15:12
+14*10s后 -------------------------
+ 9534 java -jar kube-runtime-mirr 8087136 13870476 1月19
+ 2635 kube-apiserver --advertise- 383612 1180564 1月19
+ 9524 java -jar kube-api-mapper.j 350208 11671696 1月19
+ 1410 /usr/bin/kubelet --bootstra 138512 2217128 1月19
+ 2628 kube-controller-manager --a 126004 824508 1月19
+ 5158 /usr/bin/kube-controllers   69668 748844 1月19
+ 2620 kube-scheduler --authentica 57424 755556 1月19
+ 3329 /usr/local/bin/kube-proxy - 42568 748984 1月19
+ 9664 postgres: postgres kube 172 22716 196340 1月19
+ 1639 postgres: postgres kube 172 13936 194416 1月20
+ 5595 grep kube                    2276 112836 15:13
+15*10s后 -------------------------
+ 9534 java -jar kube-runtime-mirr 8087136 13870476 1月19
+ 2635 kube-apiserver --advertise- 381908 1180564 1月19
+ 9524 java -jar kube-api-mapper.j 350208 11671696 1月19
+ 1410 /usr/bin/kubelet --bootstra 138512 2217128 1月19
+ 2628 kube-controller-manager --a 126004 824508 1月19
+ 5158 /usr/bin/kube-controllers   69668 748844 1月19
+ 2620 kube-scheduler --authentica 57424 755556 1月19
+ 3329 /usr/local/bin/kube-proxy - 42568 748984 1月19
+ 9664 postgres: postgres kube 172 22716 196340 1月19
+ 1639 postgres: postgres kube 172 13936 194416 1月20
+ 5843 grep kube                    2416 112836 15:13
+16*10s后 -------------------------
+ 9534 java -jar kube-runtime-mirr 8087136 13870476 1月19
+ 2635 kube-apiserver --advertise- 381908 1180564 1月19
+ 9524 java -jar kube-api-mapper.j 350208 11671696 1月19
+ 1410 /usr/bin/kubelet --bootstra 138512 2217128 1月19
+ 2628 kube-controller-manager --a 126004 824508 1月19
+ 5158 /usr/bin/kube-controllers   69668 748844 1月19
+ 2620 kube-scheduler --authentica 57424 755556 1月19
+ 3329 /usr/local/bin/kube-proxy - 42568 748984 1月19
+ 9664 postgres: postgres kube 172 22716 196340 1月19
+ 1639 postgres: postgres kube 172 13936 194416 1月20
+ 6074 grep kube                    2276 112836 15:13
+17*10s后 -------------------------
+ 9534 java -jar kube-runtime-mirr 8087136 13870476 1月19
+ 2635 kube-apiserver --advertise- 381908 1180564 1月19
+ 9524 java -jar kube-api-mapper.j 350208 11671696 1月19
+ 1410 /usr/bin/kubelet --bootstra 139352 2217128 1月19
+ 2628 kube-controller-manager --a 126264 824508 1月19
+ 5158 /usr/bin/kube-controllers   69668 748844 1月19
+ 2620 kube-scheduler --authentica 57424 755556 1月19
+ 3329 /usr/local/bin/kube-proxy - 42568 748984 1月19
+ 9664 postgres: postgres kube 172 22716 196340 1月19
+ 1639 postgres: postgres kube 172 13936 194416 1月20
+ 6323 grep kube                    2376 112836 15:13
+18*10s后 -------------------------
+ 9534 java -jar kube-runtime-mirr 8087136 13870476 1月19
+ 2635 kube-apiserver --advertise- 381908 1180564 1月19
+ 9524 java -jar kube-api-mapper.j 350208 11671696 1月19
+ 1410 /usr/bin/kubelet --bootstra 139352 2217128 1月19
+ 2628 kube-controller-manager --a 126264 824508 1月19
+ 5158 /usr/bin/kube-controllers   69668 748844 1月19
+ 2620 kube-scheduler --authentica 57424 755556 1月19
+ 3329 /usr/local/bin/kube-proxy - 42568 748984 1月19
+ 9664 postgres: postgres kube 172 22716 196340 1月19
+ 1639 postgres: postgres kube 172 13936 194416 1月20
+ 6600 grep kube                    2348 112836 15:13

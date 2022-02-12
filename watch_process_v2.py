@@ -1,8 +1,17 @@
 from matplotlib import pyplot as plt
 from matplotlib.font_manager import FontProperties
 
+watchProcess = ["kube-apiserver", "kube-controller-manager", "kube-scheduler", "kube-proxy", "kubelet"]
+
 
 def check(line):
+    for process in watchProcess:
+        if process in line:
+            return process, True
+    return "", False
+
+
+def check2(line):
     if line.endswith("--\n"):
         return False
     return True
@@ -11,31 +20,24 @@ def check(line):
 def plot_watch(type, rszDict):
     font = FontProperties(fname='/Users/zhujianxing/Downloads/SimHei.ttf')
 
-    x = range(0, len(rszDict["10530"]))
+    x = range(0, len(rszDict["kube-apiserver"]))
     plt.figure(figsize=(15, 10), dpi=80)
     plt.suptitle("rs变化后3min内内存变化-" + type, fontproperties=font)
-    labelDict = {
-        "10530": "apiserver",
-        "10736": "kubelet",
-        "10451": "controller",
-        "10540": "scheduler",
-        "11166": "proxy"
-    }
 
     num = 1
-    for key in labelDict:
+    for key in rszDict:
         y = rszDict[key]
         y = list(map(int, y))
         plt.subplot(2, 3, num)
-        plt.plot(x, y, label=labelDict[key])
+        plt.plot(x, y, label=key)
         num += 1
         plt.xlabel("时间/10s", fontproperties=font)
         plt.ylabel("内存变化/kb", fontproperties=font)
-        plt.title(labelDict[key], fontproperties=font)
+        plt.title(key, fontproperties=font)
         plt.grid(alpha=0.4)
         # plt.legend()
 
-    plt.savefig("./images/" + type + ".png")
+    plt.savefig("./images_v2/" + type + ".png")
     plt.show()
 
 
@@ -46,14 +48,14 @@ def process_watch_file(filename):
     rszDict = dict()
     vszDict = dict()
     for line in lines:
-        if check(line):
+        key, flag = check(line)
+        if not flag:
+            continue
+
+        if check2(line):
             items = line.split(" ")
             # print(items)
             lens = len(items)
-            key = ""
-            for key in items:
-                if len(key) != 0:
-                    break
             memset = rszDict.get(key)
             if memset == None:
                 memset = list()
@@ -70,9 +72,9 @@ def process_watch_file(filename):
 
 if __name__ == '__main__':
 
-    countList = [0, 3, 10, 20, 30, 40]
+    countList = [0, 3]
     for count in countList:
-        filename = "./watch_file/watch-" + str(count) + ".txt"
+        filename = "./watch_file_v2/watch-" + str(count) + ".txt"
         rszDict, vszDict = process_watch_file(filename)
         plot_watch("rsz-" + str(count), rszDict)
         plot_watch("vsz-" + str(count), vszDict)
