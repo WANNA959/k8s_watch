@@ -241,7 +241,7 @@ api_{n}.txt
 
 - 部署pod类型：image:nginx
 
-![image-20220210144502905](https://tva1.sinaimg.cn/large/008i3skNgy1gz8ex5h2tzj31al0u0wj7.jpg)
+![image-20220212201532324](https://tva1.sinaimg.cn/large/008i3skNgy1gzazpn0wkmj315m0u0437.jpg)
 
 - replicaSet控制nginx pod数量变化
 - service对外暴露接口服务
