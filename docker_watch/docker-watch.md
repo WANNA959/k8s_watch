@@ -23,11 +23,13 @@
 
 - **docker启动后，系统内存使用从196M到282M左右稳定，大概占用86M内存，[详细数据](./memory-change.txt)，如下图**
 
-
-
 **从裸机状态到docker启动稳定，内存占用=282-186=96M**
 
+- **启动一个nginx容器，删除**
 
+![image-20220330225721121](https://tva1.sinaimg.cn/large/e6c9d24ely1h0saw9httqj21qg0son24.jpg)
+
+**从裸机状态到docker容器启动后删除，内存占用=314-186=128M**
 
 > docker启动1min内存变化趋势图
 
