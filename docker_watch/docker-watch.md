@@ -7,7 +7,7 @@
 
 ## 数据 & 图表
 
-脚本检测docker启动1min内的系统内存使用的变化情况
+[脚本](./docker-watch.sh)检测docker启动1min内的系统内存使用的变化情况
 
 > 主要命令：free -h | grep Mem | awk '{print $3}'
 
