@@ -11,9 +11,23 @@
 
 > 主要命令：free -h | grep Mem | awk '{print $3}'
 
-> 详细数据见[memory-change.txt](./memory-change.txt)
+> 数据分析
 
-**docker启动后，系统内存使用从219M到298M左右稳定，大概占用79M内存**
+- **docker安装前：186M**
+
+![image-20220330224234359](https://tva1.sinaimg.cn/large/e6c9d24ely1h0sagvidnnj212c09qt9p.jpg)
+
+- **docker安装后，启动前：196M**
+
+![image-20220330224536300](https://tva1.sinaimg.cn/large/e6c9d24ely1h0sak0pju6j211y08q0to.jpg)
+
+- **docker启动后，系统内存使用从196M到282M左右稳定，大概占用86M内存，[详细数据](./memory-change.txt)，如下图**
+
+
+
+**从裸机状态到docker启动稳定，内存占用=282-186=96M**
+
+
 
 > docker启动1min内存变化趋势图
 
